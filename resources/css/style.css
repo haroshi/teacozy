@@ -40,6 +40,7 @@ header img {
 
 nav {
   text-align: right;
+  flex-grow: 1;
 }
 
 nav span {
@@ -100,3 +101,28 @@ nav span {
    height: 500px;
    padding-top: 80px;
  }
+
+#locations .flex-container {
+  margin: auto;
+  width: 1200px
+}
+
+.location {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  opacity: 1.0;
+  margin: 5px 20px;
+  flex-basis: 300px;
+}
+
+#contact {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
